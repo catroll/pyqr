@@ -8,10 +8,10 @@ except ImportError:  # pragma: no cover
     import Image
     import ImageDraw
 
-import qrcode.image.base
+from pyqr.qrcode.image.base import BaseImage
 
 
-class PilImage(qrcode.image.base.BaseImage):
+class PilImage(BaseImage):
     """
     PIL image builder, default format is PNG.
     """

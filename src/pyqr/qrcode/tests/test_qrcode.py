@@ -1,17 +1,17 @@
 import warnings
 import six
 import sys
-import qrcode
-import qrcode.util
-import qrcode.image.svg
+from pyqr import qrcode
+import pyqr.qrcode.util
+import pyqr.qrcode.image.svg
 
 try:
-    import qrcode.image.pure
+    import pyqr.qrcode.image.pure
     import pymaging_png  # ensure that PNG support is installed
 except ImportError:  # pragma: no cover
     pymaging_png = None
 
-import qrcode
+from pyqr import qrcode
 from pyqr.qrcode.image.base import BaseImage
 from pyqr.qrcode.exceptions import DataOverflowError
 from pyqr.qrcode.util import (
