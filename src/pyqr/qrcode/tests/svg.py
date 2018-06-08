@@ -1,4 +1,4 @@
-from qrcode.image.svg import SvgImage
+from pyqr.qrcode.image.svg import SvgImage
 
 
 class SvgImageWhite(SvgImage):

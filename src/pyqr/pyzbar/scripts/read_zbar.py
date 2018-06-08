@@ -4,8 +4,8 @@ from __future__ import print_function
 import argparse
 import sys
 
-import pyzbar
-from pyzbar.pyzbar import decode
+from pyqr import pyzbar
+from pyqr.pyzbar.pyzbar import decode
 
 
 def main(args=None):

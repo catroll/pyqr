@@ -11,7 +11,7 @@ except ImportError:
     # Python 2
     from mock import call, patch
 
-from pyzbar import zbar_library
+from pyqr.pyzbar import zbar_library
 
 
 class TestLoad(unittest.TestCase):

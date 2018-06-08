@@ -8,7 +8,7 @@ try:
 except ImportError:
     import mock
 
-from qrcode.console_scripts import main
+from pyqr.qrcode.console_scripts import main
 
 
 def bad_read():

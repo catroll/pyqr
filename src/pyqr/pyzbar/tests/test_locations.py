@@ -1,6 +1,6 @@
 import unittest
 
-from pyzbar.locations import bounding_box, convex_hull, Rect
+from pyqr.pyzbar.locations import bounding_box, convex_hull, Rect
 
 
 class TestLocations(unittest.TestCase):

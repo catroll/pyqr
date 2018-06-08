@@ -19,10 +19,10 @@ except ImportError:
     cv2 = None
 
 
-from pyzbar.pyzbar import (
+from pyqr.pyzbar.pyzbar import (
     decode, Decoded, Rect, ZBarSymbol, EXTERNAL_DEPENDENCIES
 )
-from pyzbar.pyzbar_error import PyZbarError
+from pyqr.pyzbar.pyzbar_error import PyZbarError
 
 
 TESTDATA = Path(__file__).parent

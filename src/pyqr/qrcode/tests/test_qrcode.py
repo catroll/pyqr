@@ -12,11 +12,11 @@ except ImportError:  # pragma: no cover
     pymaging_png = None
 
 import qrcode
-from qrcode.image.base import BaseImage
-from qrcode.exceptions import DataOverflowError
-from qrcode.util import (
+from pyqr.qrcode.image.base import BaseImage
+from pyqr.qrcode.exceptions import DataOverflowError
+from pyqr.qrcode.util import (
     QRData, MODE_NUMBER, MODE_ALPHA_NUM, MODE_8BIT_BYTE)
-from qrcode.tests.svg import SvgImageWhite
+from pyqr.qrcode.tests.svg import SvgImageWhite
 
 try:
     import unittest2 as unittest

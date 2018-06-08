@@ -8,7 +8,7 @@ except ImportError:
     import mock
 
 import six
-from qrcode.release import update_manpage
+from pyqr.qrcode.release import update_manpage
 
 OPEN = '{}.open'.format(six.moves.builtins.__name__)
 DATA = 'test\n.TH "date" "version" "description"\nthis'

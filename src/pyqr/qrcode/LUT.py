@@ -3,7 +3,7 @@
 
 # # generate rsPoly lookup table.
 
-# from qrcode import base
+# from pyqr.qrcode import base
 
 # def create_bytes(rs_blocks):
 #     for r in range(len(rs_blocks)):

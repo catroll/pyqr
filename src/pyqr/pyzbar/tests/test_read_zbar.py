@@ -9,7 +9,7 @@ if 2 == sys.version_info[0]:
 else:
     from io import StringIO
 
-from pyzbar.scripts.read_zbar import main
+from pyqr.pyzbar.scripts.read_zbar import main
 
 
 @contextmanager

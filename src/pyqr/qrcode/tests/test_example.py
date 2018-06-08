@@ -7,7 +7,7 @@ try:
 except ImportError:
     import mock
 
-from qrcode import run_example
+from pyqr.qrcode import run_example
 
 
 class ExampleTest(unittest.TestCase):

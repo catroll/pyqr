@@ -1,5 +1,5 @@
-from qrcode import constants, exceptions, util
-from qrcode.image.base import BaseImage
+from pyqr.qrcode import constants, exceptions, util
+from pyqr.qrcode.image.base import BaseImage
 
 import six
 from bisect import bisect_left
@@ -285,7 +285,7 @@ class QRCode:
             image_factory = self.image_factory
             if image_factory is None:
                 # Use PIL by default
-                from qrcode.image.pil import PilImage
+                from pyqr.qrcode.image.pil import PilImage
                 image_factory = PilImage
 
         im = image_factory(
