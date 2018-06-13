@@ -3,7 +3,7 @@ pyqr
 ====
 
 
-Python QR code library
+a Python QR code library
 
 
 Description
